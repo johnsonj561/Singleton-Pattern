@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_yyKTUPFPEeakTIBrNmROAQ" name="model">
+  <ownedComment xmi:id="_SMDHUPFQEeakTIBrNmROAQ" annotatedElement="_1w8_sPFPEeakTIBrNmROAQ">
+    <body>Private constructor prevents&#xD;
+classes from instantiating</body>
+  </ownedComment>
+  <ownedComment xmi:id="_Yfur4PFQEeakTIBrNmROAQ" annotatedElement="_1w8_sPFPEeakTIBrNmROAQ">
+    <body>If instance is null, constructor call&#xD;
+is made&#xD;
+returns instance</body>
+  </ownedComment>
+  <ownedComment xmi:id="_HkOFoPFTEeakTIBrNmROAQ" annotatedElement="_1w8_sPFPEeakTIBrNmROAQ">
+    <body>Static member poinst to &#xD;
+unique instance of singleton&#xD;
+class object&#xD;
+</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1w8_sPFPEeakTIBrNmROAQ" name="SingletonClass">
+    <ownedAttribute xmi:id="_8ns1EPFPEeakTIBrNmROAQ" name="uniqueInstance" visibility="private">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__6KEUPFPEeakTIBrNmROAQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__6T1UPFPEeakTIBrNmROAQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="__6T1UfFPEeakTIBrNmROAQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_AuPMoPFQEeakTIBrNmROAQ" name="singletonData" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B8nEQPFQEeakTIBrNmROAQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B8nEQfFQEeakTIBrNmROAQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_B8nEQvFQEeakTIBrNmROAQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_AhWf0PFTEeakTIBrNmROAQ" name="Property1" visibility="private" isStatic="true">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A99jUPFTEeakTIBrNmROAQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A99jUfFTEeakTIBrNmROAQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_A99jUvFTEeakTIBrNmROAQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Dcj0EPFQEeakTIBrNmROAQ" name="static getInstance"/>
+    <ownedOperation xmi:id="_IXHCgPFQEeakTIBrNmROAQ" name="SingletonClass" visibility="private"/>
+  </packagedElement>
+</uml:Model>
