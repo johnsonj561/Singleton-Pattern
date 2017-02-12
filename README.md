@@ -2,7 +2,7 @@
 Title: The Singleton Pattern
 
 Sources:
-Notes below regarding composite pattern taken from "Design Patterns - Elements of Reusable Object-Oriented Software"
+Notes below regarding singleton pattern taken from "Design Patterns - Elements of Reusable Object-Oriented Software"
 By Gamma, Helm, Johnson, Vlissides
 
 Example Code provided by Derek Banas:
